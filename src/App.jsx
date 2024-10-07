@@ -1,3 +1,4 @@
+import InventoryList from "./components/InventoryList"
 
 
 function App() {
@@ -5,8 +6,9 @@ function App() {
   return (
     <>
       <h1
-        className="text-3xl text-center text-red-700"
-      >Welcome to Vite with TailwindCSS and React</h1>
+        className="text-3xl text-center text-red-500"
+      >Welcome to Vite with TailwindCSS and React </h1>
+      <InventoryList/>
     </>
   )
 }
